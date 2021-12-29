@@ -1,6 +1,16 @@
 import Head from 'next/head'
 import Navbar from '../includes/Navbar'
 import Footer from '../includes/Footer'
+import { motion } from "framer-motion";
+
+const isVisible = {
+    initial: {
+        opacity: 0,
+    },
+    animate: {
+        opacity: 1,
+    },
+}
 
 const MainLayout = ({children, pageTitle, description, KeyWords, ...props}) => {
     return (
@@ -14,9 +24,9 @@ const MainLayout = ({children, pageTitle, description, KeyWords, ...props}) => {
                 <meta name="google-site-verification" content="xWDq6KBs5hxoNdA0AX8Zm29nSQsKc1vO5SU_bIk_slM" />
             </Head>
             <Navbar/>
-                <main> 
+                <motion.main initial="initial" animate="animate" variants={isVisible}> 
                     {children}
-                </main>
+                </motion.main>
             <Footer />
         </>
     )
