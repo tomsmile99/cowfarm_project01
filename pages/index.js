@@ -16,25 +16,28 @@ export default function Home({}) {
           </div>
           <div className="carousel-inner">
             <div className="carousel-item active">
-              <Image src="https://saksiam.com/images/bannerSlide/2021-12-14nogift65.jpg" 
+              <Image src="/images/bannerTest_img1.jpg" width={3840} height={1391} className="d-block w-100" alt="..."/>
+              {/* <Image src="https://saksiam.com/images/bannerSlide/2021-12-14nogift65.jpg" 
               width={3840}
               height={1191} 
               className="d-block w-100" 
-              alt="..." />
+              alt="..." /> */}
             </div>
             <div className="carousel-item">
-              <Image src="https://saksiam.com/images/bannerSlide/2021-04-30Banner_car300464.jpg" 
+              <Image src="/images/bannerTest_img2.jpg" width={3840} height={1391} className="d-block w-100" alt="..."/>
+              {/* <Image src="https://saksiam.com/images/bannerSlide/2021-04-30Banner_car300464.jpg" 
               width={3840}
               height={1191} 
               className="d-block w-100" 
-              alt="..." />
+              alt="..." /> */}
             </div>
             <div className="carousel-item">
-              <Image src="https://saksiam.com/images/bannerSlide/2021-04-30Banner_agriculture300464.jpg" 
+              <Image src="/images/bannerTest_img3.jpg" width={3840} height={1391} className="d-block w-100" alt="..."/>
+              {/* <Image src="https://saksiam.com/images/bannerSlide/2021-04-30Banner_agriculture300464.jpg" 
               width={3840}
               height={1191} 
               className="d-block w-100" 
-              alt="..." />
+              alt="..." /> */}
             </div>
           </div>
           <button className="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
