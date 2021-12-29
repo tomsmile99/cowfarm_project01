@@ -17,3 +17,5 @@ a {
 .bgNavbar{
   background: #46e8a2;
 }
+
+@import "~react-image-gallery/styles/css/image-gallery.css";
