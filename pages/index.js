@@ -1,7 +1,6 @@
-import MainLayout from '../src/components/layouts/MainLayout';
-import BannerSlide from '../src/components/inHome/BannerSlide';
-import ContentBox1 from '../src/components/inHome/ContentBox1';
-
+import MainLayout from '../src/components/layouts/MainLayout'
+import BannerSlide from '../src/components/inHome/BannerSlide'
+import ContentBox1 from '../src/components/inHome/ContentBox1'
 
 export default function Home({}) {
   return (
