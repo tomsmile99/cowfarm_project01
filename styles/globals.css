@@ -14,3 +14,7 @@ a {
 * {
   box-sizing: border-box;
 }
+
+.bgNavbar{
+  background: #46e8a2;
+}
